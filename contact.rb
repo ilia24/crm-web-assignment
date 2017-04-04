@@ -1,3 +1,9 @@
+require 'sinatra'
+
+get '/' do
+  'Main Menu'
+end
+
 
 class Contact
 attr_reader :id
